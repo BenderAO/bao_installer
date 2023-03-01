@@ -1,0 +1,34 @@
+Aquí se guardan archivos o programas que podrían no estar
+en todos los sistemas operativos por "x" razon.
+Para que te sea mas facil reparar errores (en caso de existir alguno)
+te dejamos aquí una lista de los programas que contiene esta carpeta:
+
+
+dxwebsetup.exe
+Info: dxwebsetup
+Programa que sirve para actualizar Directx, para casos de errores en
+la inicialización del Directx.
+
+AOproblemas.exe
+Info: AOproblemas
+Programa auto-actualizador de dlls.
+Su función es basicamente registrar las librerías basicas que utilizan
+casi todos los servidores de Argentum online en su gran mayoría.
+
+registrar_dlls.exe
+Info: Sirve para registrar los archivos escenciales de BAO para
+solucionar posibles inconvenientes en Windows Vista, o Windwos 7.
+Solo hay que hacerle doble clic y el programa funciona por si mismo.
+
+
+vbrun60sp6.exe
+Info: Si tenes algún run time que no podes solucionar con ninguna de
+las soluciones recomendadas, utilizá este programa, que actualiza
+librerías de Windows automñaticamente, para aplicaciones en 
+visual basic 6.0. 
+
+Tutorial para BenderAO por About.
+12:19 a.m. 05/05/2010
+
+Last update: 17:43 21/02/2011
+Last Update: 07:23 p.m. 21/11/2014

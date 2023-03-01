@@ -1,0 +1,9 @@
+- Carpeta contenedora de archivos básicos
+ para la base de datos del motor gráfico y de sonido.
+
+
+
+
+08:11 a.m. 21/06/2011
+
+Last Update: 11:54 a.m. 08/11/2013
