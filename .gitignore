@@ -1,11 +1,11 @@
 # Initialized files
 *.basic
 *.vbw
-*.cfg
-Server/Charfile/*
-Server/Logs/*
-Server/WorldBackup/*
-Server/Guilds/*
+BIN/CODIGO/*
+CODIGO/*
+CODIGO AutoUpdate/*
+Codigo DLL_AntiCheat/*
+Codigos Seguridad/*
 .DS_Store
 *.vbw
 *.csi
@@ -14,5 +14,4 @@ Server/Guilds/*
 *.LOG
 *.bot
 bkNpcs.dat
-*.exe
 Guilds/guildsinfo.inf
