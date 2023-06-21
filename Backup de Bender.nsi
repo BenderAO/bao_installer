@@ -54,7 +54,7 @@
 !define PASS_RECOVERY_APP "BenderAO.exe"   ;Name of the password recovery program
 
 ;--------------------------------
-; De acá en más no deberías de tocar si no sabés lo que estás haciendo...
+; De acï¿½ en mï¿½s no deberï¿½as de tocar si no sabï¿½s lo que estï¿½s haciendo...
 
 
 ;--------------------------------
@@ -94,7 +94,7 @@ SetCompressor /SOLID lzma
 ; Para las DLLs y OCXs
 Var ALREADY_INSTALLED
 
-; Para la creación del grupo en el Menú de Inicio
+; Para la creaciï¿½n del grupo en el Menï¿½ de Inicio
 Var START_MENU_FOLDER
 Var MUI_TEMP
 
@@ -158,7 +158,7 @@ InstallDirRegKey HKLM ${AO_INSTALLDIR_REGKEY} "${INSTALL_DIR_REG_NAME}"
 ; Description of each component in each language
 
 LangString ARGENTUM_DESC ${LANG_ENGLISH} "Basic client for ${PRODUCT_NAME} ${PRODUCT_VERSION}"
-LangString ARGENTUM_DESC ${LANG_SPANISH} "Cliente básico de ${PRODUCT_NAME} ${PRODUCT_VERSION}"
+LangString ARGENTUM_DESC ${LANG_SPANISH} "Cliente bï¿½sico de ${PRODUCT_NAME} ${PRODUCT_VERSION}"
 
 LangString DESKTOP_LINK_DESC ${LANG_ENGLISH} "Adds a link to ${PRODUCT_NAME} ${PRODUCT_VERSION} in the Desktop"
 LangString DESKTOP_LINK_DESC ${LANG_SPANISH} "Agrega un acceso directo a ${PRODUCT_NAME} ${PRODUCT_VERSION} en el Escritorio"
@@ -182,7 +182,7 @@ LangString AUTO_UPDATE_LINK ${LANG_ENGLISH} "Search for updates.lnk"
 LangString AUTO_UPDATE_LINK ${LANG_SPANISH} "Buscar actualizaciones.lnk"
 
 LangString PASS_RECOVERY_APP_LINK ${LANG_ENGLISH} "Recover password.lnk"
-LangString PASS_RECOVERY_APP_LINK ${LANG_SPANISH} "Recuperar contraseña.lnk"
+LangString PASS_RECOVERY_APP_LINK ${LANG_SPANISH} "Recuperar contraseï¿½a.lnk"
 
 ;--------------------------------
 ; Licences for each language
@@ -297,7 +297,20 @@ Section "-Install VB6 runtimes"
   !insertmacro InstallLib REGDLL $ALREADY_INSTALLED REBOOT_PROTECTED \
      "${DEPENDS_FOLDER}\dx8vb.dll" "$SYSDIR\dx8vb.dll" "$SYSDIR"
 
+  !insertmacro InstallLib REGDLL $ALREADY_INSTALLED REBOOT_PROTECTED \
+     "${DEPENDS_FOLDER}\Unzip32.dll" "$SYSDIR\Unzip32.dll" "$SYSDIR"
 
+  !insertmacro InstallLib REGDLL $ALREADY_INSTALLED REBOOT_PROTECTED \
+     "${DEPENDS_FOLDER}\zip32.dll" "$SYSDIR\zip32.dll" "$SYSDIR"
+
+  !insertmacro InstallLib REGDLL $ALREADY_INSTALLED REBOOT_PROTECTED \
+     "${DEPENDS_FOLDER}\zlib.dll" "$SYSDIR\zlib.dll" "$SYSDIR"
+
+  !insertmacro InstallLib REGDLL $ALREADY_INSTALLED REBOOT_PROTECTED \
+     "${DEPENDS_FOLDER}\zlib1.dll" "$SYSDIR\zlib1.dll" "$SYSDIR"
+
+  !insertmacro InstallLib DLL    $ALREADY_INSTALLED REBOOT_PROTECTED \
+     "${DEPENDS_FOLDER}\aamd532.dll" "$SYSDIR\aamd532.dll" "$SYSDIR"
 ;--------------------------------
 ; OCX y DLLs
 
@@ -319,6 +332,9 @@ Section "-Install VB6 runtimes"
   !insertmacro InstallLib REGDLL $ALREADY_INSTALLED REBOOT_PROTECTED \
      "${DEPENDS_FOLDER}\MSCOMCTL.OCX" "$SYSDIR\MSCOMCTL.OCX" "$SYSDIR"
 
+  !insertmacro InstallLib REGDLL $ALREADY_INSTALLED REBOOT_PROTECTED \
+     "${DEPENDS_FOLDER}\MSINET.OCX" "$SYSDIR\MSINET.OCX" "$SYSDIR"
+
 SectionEnd
 
 
@@ -336,6 +352,7 @@ Section "-un.Uninstall VB6 runtimes"
   !insertmacro UnInstallLib REGDLL SHARED NOREMOVE "$SYSDIR\comcat.dll"
   !insertmacro UnInstallLib DLL    SHARED NOREMOVE "$SYSDIR\asycfilt.dll"
   !insertmacro UnInstallLib TLB    SHARED NOREMOVE "$SYSDIR\stdole2.tlb"
+  !insertmacro UnInstallLib DLL    SHARED NOREMOVE "$SYSDIR\aamd532.dll"
 
 ;--------------------------------
 ; OCX y DLLs
@@ -345,6 +362,11 @@ Section "-un.Uninstall VB6 runtimes"
   !insertmacro UnInstallLib REGDLL SHARED NOREMOVE "$SYSDIR\CSWSK32.ocx"
   !insertmacro UnInstallLib REGDLL SHARED NOREMOVE "$SYSDIR\MSWINSCK.ocx"
   !insertmacro UnInstallLib REGDLL SHARED NOREMOVE "$SYSDIR\dx8vb.dll"
+  !insertmacro UnInstallLib REGDLL SHARED NOREMOVE "$SYSDIR\Unzip32.dll"
+  !insertmacro UnInstallLib REGDLL SHARED NOREMOVE "$SYSDIR\zip32.dll"
+  !insertmacro UnInstallLib REGDLL SHARED NOREMOVE "$SYSDIR\zlib.dll"
+  !insertmacro UnInstallLib REGDLL SHARED NOREMOVE "$SYSDIR\zlib1.dll"
+
 
 SectionEnd
 
