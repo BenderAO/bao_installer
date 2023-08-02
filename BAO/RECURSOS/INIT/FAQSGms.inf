@@ -312,7 +312,7 @@ REPLY=Si eres ciudadano, y deseás enlistarte en las tropas Reales, deberás ir ha
 
 [FAQGMS80]
 QUESTION= ¿Cómo salgo del Dungeon Newbie?
-REPLY=Primero tenes que hacer la primer misión, que te la da el bardo que tiene un signo de pregunta en la cabeza. Esa misión es simplemente encontrar el Mercader que se llama Lilian, y hacerle varias veces doble clic, y comprar 100 rojas, 100 bebida y 100 comida y listo. 
+REPLY=Primero tenes que hacer la primer misión, que te la da el bardo que tiene un signo de pregunta en la cabeza. Esa misión es simplemente encontrar el Mercader que se llama Lilian, y hacerle varias veces doble clic, y comprar 100 rojas, 100 bebida y 100 comida.||Luego, debes aceptar y finalizar la misión 'Inicia la cacería', que es otra misión diferente. Una vez finalizada esa misión (es decir la segunda misión), te lleva automáticamente a al hogar que hayas elegido al crear el personaje.
 
 [FAQGMS81]
 QUESTION=Anda lento el Cliente, falta rendimiento
@@ -367,10 +367,18 @@ QUESTION=NO PUEDO SALIR DE NW SOY 33....
 REPLY=Primero tenes que hacer la primer misión, que te la da el bardo que tiene un signo de pregunta en la cabeza. Esa misión es simplemente encontrar el Mercader que se llama Lilian, y hacerle varias veces doble clic, y comprar 100 rojas, 100 bebida y 100 comida y listo. La segunda misión que te da, te deja entrar al dungeon newbie, y al terminarla te saca automáticamente cuando la completas.
 
 [FAQGMS93]
-REPLY=Promedio es promedio, vida / nivel. A menor nivel, tenes mayor promedio, porque arrancas con un promedio de 20 de vida aproximadamente. Que sería casi el doble de promedio de vida que cualquier clase. El sistema esta hecho para que en nivel 40 se empareje, y tengas un promedio más real, y no tengas que crear 20 pjs para q salga con buena vida. Ningun pj es inservible en bender, ni tampoco vas a encontrar uno +20, porque sino todo el balance del juego se rompería. De todas formas, existe una remota chance q te salga con buena vida arriba (bastante)
 QUESTION=No es azar la vida hasta lvl 20 tiran ups a lo loco, de 20 a 40 mantiene/baja promediio y despues termina por debajo (porque el promedio toma los iniciales)
+REPLY=Promedio es promedio, vida / nivel. A menor nivel, tenes mayor promedio, porque arrancas con un promedio de 20 de vida aproximadamente. Que sería casi el doble de promedio de vida que cualquier clase. El sistema esta hecho para que en nivel 40 se empareje, y tengas un promedio más real, y no tengas que crear 20 pjs para q salga con buena vida. Ningun pj es inservible en bender, ni tampoco vas a encontrar uno +20, porque sino todo el balance del juego se rompería. De todas formas, existe una remota chance q te salga con buena vida arriba (bastante)
+
+[FAQGMS94]
+QUESTION=donde esta la entrada de maravel?
+REPLY=La entrada al Dungeon Maravel se encuentra en el mapa 1 (El continente), en la posición X: 558 Y: 300. Esto queda al NORTE de Ullathorpe, siguiendo el sendero que hay hacia arriba de la ciudad.
+
+[FAQGMS95]
+REPLY=Los Árboles Encantados si aparecen en el mapa. Pero al tener tilde, cuando apretas la A no te lleva automáticamente. Tenes que apretar el tilde y luego la A y ahí te muestra los árboles en el mapa.
+QUESTION=un error del juego no aparece donde estan los arboles encantados en el mapa
 
 [INIT]
 MOSTRAR=1
-NUMFAQS=93
+NUMFAQS=95
 
