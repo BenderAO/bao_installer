@@ -8,15 +8,15 @@ REPLY=Para ser ciudadano deberá superar los puntos de ASESINO + BANDIDO (sumados
 
 [FAQGMS11]
 QUESTION=¿Cómo fundo un clan?
-REPLY=Para fundar un clan se necesitan los siguientes requisitos.||- Ser nivel 35 o superior |-Tener 5 GuildPoints.||- Una vez cumplidos estos requisitos tipee /FUNDARCLAN y selecciona los detalles de cómo quiere su clan. Para otorgar GuildPoints o recibirlos, hay que ser mayor a nivel 30 y utilizar el comando /REPUTACION “nick”. 
+REPLY=Para fundar un clan se necesitan los siguientes requisitos.||- Ser nivel 25 o superior |-Tener 5 GuildPoints.||- Una vez cumplidos estos requisitos tipee /FUNDARCLAN y selecciona los detalles de cómo quiere su clan.  Para conseguir un GuildPoint necesitas viajar al Castillo de los Olvidos, y aceptar una misión especial que la otorga Arwen. Para aceptar la misión, debes estar en un party de al menos 3 personas.
 
 [FAQGMS12]
 QUESTION=¿Cómo consigo los GuildPoints?
-REPLY=Para conseguir un GuildPoint es necesario que un usuario te lo de, o te los venda. Ya sea usted mismo u otro usuario. Para poder otorgar un GuildPoint es necesario ser nivel 30 o superior. Si cumplimos ese requisito tipeamos /REPUTACION “nick”.||Nada más se puede dar un solo GuildPoint por personaje, y esa decisión es única, piense bien antes de otorgar uno.
+REPLY=Para conseguir un GuildPoint necesitas viajar al Castillo de los Olvidos, y aceptar una misión especial que la otorga Arwen. Para aceptar la misión, debes estar en un party de al menos 3 personas.
 
 [FAQGMS13]
 QUESTION=¿Como miro mis GuildPoints?
-REPLY=Para ver la cantidad de GuildPoints que su personaje tiene, tipee /MIREPUTACION. Le dirá cuántos GuildPoints tiene y quienes se los otorgaron. Perfecto
+REPLY=Para ver la cantidad de GuildPoints que su personaje tiene, tipee /MIREPUTACION. Le dirá cuántos GuildPoints tiene y quienes se los otorgaron.
 
 [FAQGMS14]
 QUESTION=¿Cuáles son las ciudades?
@@ -57,7 +57,7 @@ REPLY=- Siempre que el oro aparezca en color ROJO y no seas NEWBIE: Se CAE. ||- 
 
 [FAQGMS22]
 QUESTION=¿Dónde entreno?
-REPLY=Inicialmente, los Newbies entrenan protegidos en el Dungeon Newbie, un Dungeon del que no pueden salir hasta nivel 18.||Posteriormente, los mapas de entrenamiento podrían ser los bosques de los alrededores, o bien catacumbas cercanas a las ciudades más conocidas (Ullathorpe, Turgon, Murus, Angrod), o dungeons de entrenamiento moderado (Pirámide, Kraken, Isla de Circe, Dungeon Marvel) o bien, los mapas de mayor entrenamiento y más peligrosos de estas tierras (Dungeon Veriil, Dungeon Lava, Fuerte Pretoriano, Dungeon Lava No-Mágico)
+REPLY=Inicialmente, los Newbies entrenan protegidos en el Dungeon Newbie, un Dungeon del que no pueden salir hasta terminar la misión inicial llamada Inicia la cacería.||Posteriormente, los mapas de entrenamiento podrían ser los bosques de los alrededores, o bien catacumbas cercanas a las ciudades más conocidas (Ullathorpe, Turgon, Murus, Angrod), o dungeons de entrenamiento moderado (Pirámide, Kraken, Isla de Circe, Dungeon Marvel) o bien, los mapas de mayor entrenamiento y más peligrosos de estas tierras (Dungeon Veriil, Dungeon Lava, Fuerte Pretoriano, Dungeon Lava No-Mágico)
 
 [FAQGMS23]
 QUESTION=¿Dónde compro los hechizos?
@@ -89,7 +89,7 @@ REPLY=Posiblemente te este faltando agua o comida, una vestimenta o bien, está l
 
 [FAQGMS3]
 QUESTION=¿Puedo salir del Dungeon Newbie?
-REPLY=Inicialmente, los Newbies entrenan protegidos en el Dungeon Newbies hasta nivel 15. Para poder entrenar, deberán aceptar las misiones ¡Inicia la aventura! e ¡Inicia la cacería! Una vez terminadas ambas misiones, automáticamente saldrás a la ciudad que hayas elegido al crear tu personaje.||- Posteriormente, los mapas de entrenamiento podrían ser los bosques de los alrededores, o bien catacumbas cercanas a las ciudades más conocidas como Ullathorpe, Murus o Turgon.||- Dungeons de entrenamiento de dificultad moderada como la Gran Pirámide.||- Por último, los mapas de mayor entrenamiento y más peligrosos de estas tierras, como son Lava y Dungeon Veriil.
+REPLY=Inicialmente, los Newbies entrenan protegidos en el Dungeon Newbies hasta terminar la misión inicial llamada Inicia la cacería. Para poder entrenar, deberán aceptar las misiones ¡Inicia la aventura! para poder luego hacer la misión llamada ¡Inicia la cacería! Una vez terminadas ambas misiones, automáticamente saldrás a la ciudad que hayas elegido al crear tu personaje.||- Posteriormente, los mapas de entrenamiento podrían ser los bosques de los alrededores, o bien catacumbas cercanas a las ciudades más conocidas como Ullathorpe, Murus o Turgon.||- Dungeons de entrenamiento de dificultad moderada como la Gran Pirámide.||- Por último, los mapas de mayor entrenamiento y más peligrosos de estas tierras, como son Lava y Dungeon Veriil.
 
 [FAQGMS30]
 QUESTION=¿Cómo me hago ciudadano de una ciudad /HOGAR?
@@ -193,7 +193,7 @@ REPLY=Las dungeons podrás encontrarlos con sus respectivos nombres abriendo el m
 
 [FAQGMS53]
 QUESTION=¿Dónde entreno? Lvl 1 a 20
-REPLY=- Dungeon Newbie: Es un dungeon que contiene NPCs apropiados para entrenar personajes "Newbies", en cada ciudad hay un portal para poder ingresar.||- Catacumbas: Es un lugar ideal para entrenar luego de salir del Dungeon Newbie, tiene NPCs variados que pueden dar ítems y oro para la supervivencia en los niveles más avanzados. 
+REPLY=- Dungeon Newbie: Es un dungeon que contiene NPCs apropiados para entrenar personajes "Newbies", hasta terminar la misión inicial llamada Inicia la cacería.||- Catacumbas: Es un lugar ideal para entrenar luego de salir del Dungeon Newbie, tiene NPCs variados que pueden dar ítems y oro para la supervivencia en los niveles más avanzados. 
 
 [FAQGMS54]
 QUESTION=¿Dónde entreno? Lvl 20 a 25
@@ -375,10 +375,23 @@ QUESTION=donde esta la entrada de maravel?
 REPLY=La entrada al Dungeon Maravel se encuentra en el mapa 1 (El continente), en la posición X: 558 Y: 300. Esto queda al NORTE de Ullathorpe, siguiendo el sendero que hay hacia arriba de la ciudad.
 
 [FAQGMS95]
-REPLY=Los Árboles Encantados si aparecen en el mapa. Pero al tener tilde, cuando apretas la A no te lleva automáticamente. Tenes que apretar el tilde y luego la A y ahí te muestra los árboles en el mapa.
 QUESTION=un error del juego no aparece donde estan los arboles encantados en el mapa
+REPLY=Los Árboles Encantados si aparecen en el mapa. Pero al tener tilde, cuando apretas la A no te lleva automáticamente. Tenes que apretar el tilde y luego la A y ahí te muestra los árboles en el mapa.
+
+[FAQGMS96]
+QUESTION=Como llego a catacumbas del río??
+REPLY=Para encontrar las catacumbas del río, tenes que ir hacia el norte desde ullathorpe, hasta que te encuentres con el río y una pequeña isla con una arena de combate en ella. Si vas hacia el Oeste (izquierda) y seguís subiendo, encontrarás un puente y a su izquierda un camino que te llevará directo a la entrada a las Catacumbas del Río  (Pos: 1 477 323) aprox.
+
+[FAQGMS97]
+QUESTION=Necesito saber donde estan las arañas pollito
+REPLY=Para buscar una criatura y saber en qué area respawnea, podes apretar el botón "MAPA" y ahí buscar en la lista de criaturas la que estes buscando, y te marcará la posición del mapa donde aparecen esas criaturas en color amarillo. A veces una misma criatura aparece varias veces en la lista, porque son de diferentes niveles.
+
+[FAQGMS98]
+REPLY=Reparado! Mil disculpas por la demora en la respuesta. Quiero agradecerte por haber participado activamente y ayudado a corregir los errores del juego. Estamos volviendo de a poco con el desarrollo del proyecto, para poder lanzar la última versión de BenderAO!
+QUESTION=dungeon helado tiene una parte que no se puede pasar. Creo que faltan spawns tabien pq no encuentro golems
+
 
 [INIT]
 MOSTRAR=1
-NUMFAQS=95
+NUMFAQS=98
 
