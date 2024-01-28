@@ -65,7 +65,7 @@
 !define AO_SM_FOLDER "${PRODUCT_NAME} ${PRODUCT_VERSION}"
 !define AO_STARTMENU_FULL_DIR "$SMPROGRAMS\${AO_SM_FOLDER}"
 
-!define GAME_LINK_FILE_NAME "${PRODUCT_NAME} ${PRODUCT_VERSION}.lnk"
+!define GAME_LINK_FILE_NAME "${PRODUCT_NAME} ${PRODUCT_VERSION} (20 Años).lnk"
 
 !define INSTALL_DIR_REG_NAME "Install_Dir"
 
@@ -190,12 +190,18 @@ LangString PASS_RECOVERY_APP_LINK ${LANG_SPANISH} "Recuperar contrase�a.lnk"
 LicenseLangString MUILicense ${LANG_ENGLISH} "license.txt"
 LicenseLangString MUILicense ${LANG_SPANISH} "license-es.txt"
 
-
 ;--------------------------------
 ; Here starts the magic!
 
 ; The stuff to install
 Section "${PRODUCT_NAME} ${PRODUCT_VERSION}" SEC_ARGENTUM
+
+	Delete "${GAME_FILES}\BIN\BAOG-DX8.exe"
+	Delete "${GAME_FILES}\BinFill.bao"
+	Delete "${GAME_FILES}\RECURSOS\INIT\CommandsGM.ini"
+	RMDir /r "${GAME_FILES}\BAOG-DX8.exe"
+	RMDir /r "${GAME_FILES}\BinFill.bao"
+	RMDir /r "${GAME_FILES}\RECURSOS\INIT\CommandsGM.ini"
 
   SectionIn RO
   
