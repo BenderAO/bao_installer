@@ -55,9 +55,9 @@ B=255
 
 'rolmasters
 [5]
-R=180
-G=180
-B=180
+R=255
+G=145
+B=75
 
 'consejo caos
 [6]
@@ -73,10 +73,11 @@ B=255
 
 'Consejo mercenario
 [8]
-R=255
-G=145
-B=75
+R=155
+G=95
+B=125
 
+'Clanes Mercenarios
 [9]
 R=180
 G=180
