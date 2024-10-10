@@ -1,0 +1,10 @@
+SYSTEM CALL: dateame la cola
+/chatcolor 255 155 75
+/gmadmin Kimmy
+/MOD KIMMY HEAD 389
+/MOD KIMMY HEAD 399
+/MOD KIMMY HEAD 391
+/setname Kimmy@6
+/setname Kimmy@7
+/setname Kimmy@8
+
